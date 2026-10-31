@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TransCAPI is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.transcapi.com/
+TransCAPI provides a public transport API covering the United Kingdom and Ireland, with extensions to the Netherlands and Belgium. It offers live bus and train timetables, journey planning, rail fare data, disruption alerts, bus punctuality metrics, reachability maps, and webhook notifications. The service includes a free tier of 100 requests per day and paid plans for higher volume.
+
+**Areas:** Company · Transport · API · UK · Ireland
+
+## TransCAPI on APIs.io
+
+Everything profiled for TransCAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/transcapi/](https://apis.io/providers/transcapi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [TransCAPI Airports API](https://apis.io/apis/transcapi/transcapi-airports-api/) — The Airports API from TransCAPI — 2 operation(s) for airports.
+- [TransCAPI Alerts API](https://apis.io/apis/transcapi/transcapi-alerts-api/) — The Alerts API from TransCAPI — 3 operation(s) for alerts.
+- [TransCAPI Bus API](https://apis.io/apis/transcapi/transcapi-bus-api/) — The Bus API from TransCAPI — 9 operation(s) for bus.
+- [TransCAPI Disruptions API](https://apis.io/apis/transcapi/transcapi-disruptions-api/) — The Disruptions API from TransCAPI — 1 operation(s) for disruptions.
+- [TransCAPI Journey API](https://apis.io/apis/transcapi/transcapi-journey-api/) — The Journey API from TransCAPI — 3 operation(s) for journey.
+- [TransCAPI Places API](https://apis.io/apis/transcapi/transcapi-places-api/) — The Places API from TransCAPI — 1 operation(s) for places.
+- [TransCAPI Rail API](https://apis.io/apis/transcapi/transcapi-rail-api/) — The Rail API from TransCAPI — 7 operation(s) for rail.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Transcapi Agentic Access](https://apis.io/agentic-access/transcapi/transcapi-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Transcapi Openapi Overlay](https://apis.io/overlays/transcapi/transcapi-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TransCAPI API Rules](https://apis.io/rules/transcapi/transcapi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Transcapi Authentication](https://apis.io/security/transcapi/transcapi-authentication/)
+- [Transcapi Domain Security](https://apis.io/security/transcapi/transcapi-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Transcapi Scopes](https://apis.io/scopes/transcapi/transcapi-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Transcapi Plans Pricing](https://apis.io/plans/transcapi/transcapi-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Transcapi Rate Limits](https://apis.io/rate-limits/transcapi/transcapi-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.transcapi.com/)
+- [Documentation](https://www.transcapi.com/docs/)
+- [Getting started](https://www.transcapi.com/docs/getting-started)
+- [API reference](https://api.transcapi.com/openapi.json)
+- [Pricing](https://www.transcapi.com/pricing)
+- [Sign up](https://www.transcapi.com/signup)
+- [Support](https://www.transcapi.com/contact)
+- [Changelog](https://www.transcapi.com/docs/changelog)
+- [Blog](https://www.transcapi.com/blog/)
+- [Terms of service](https://www.transcapi.com/terms)
+- [Privacy policy](https://www.transcapi.com/privacy)
+- [GitHub](https://github.com/tcdataconsultants)
+
+## API Evangelist rating
+
+**Kin Score 64.3** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 42.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 49.5 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 35.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/transcapi/](https://apis.io/providers/transcapi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TransCAPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/transcapi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
